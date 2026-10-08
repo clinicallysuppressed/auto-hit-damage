@@ -1,0 +1,30 @@
+
+{
+  "id": "auto-hit-damage",
+  "title": "Auto Hit Damage",
+  "description": "Automatically rolls D&D 5e attack damage when the attack meets or exceeds the target's AC.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "YOUR-USERNAME"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "auto-hit-damage.js"
+  ],
+  "url": "https://github.com/YOUR-USERNAME/auto-hit-damage",
+  "manifest": "https://raw.githubusercontent.com/YOUR-USERNAME/auto-hit-damage/main/module.json",
+  "download": "https://github.com/YOUR-USERNAME/auto-hit-damage/releases/download/v1.0.0/auto-hit-damage.zip"
+}
